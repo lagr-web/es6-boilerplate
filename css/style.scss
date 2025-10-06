@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body {
   background-color: #F2E530;
@@ -6,18 +7,15 @@ body {
   margin: 0;
 }
 
-#ninja{
-  position: absolute;
-  left: 50%;
-  top:50%;
-  transform: translate(-50%, -50%);
-
-  img {
-    width: 100%;
-    height: auto;
-    -o-object-fit: cover;
-    object-fit: cover;
-  }
-
-  
-}
+#myView{
+position: absolute;
+  width: 100%; 
+  top:2%;      
+  z-index: 100;
+  font-family: "Bebas Neue";
+  color: hsl(0, 0%, 0%);
+  font-weight: bold;
+  font-size: 8vw;
+  line-height: 1;
+  text-align: center; /* centrerer teksten horisontalt inden i div */
+ } 
