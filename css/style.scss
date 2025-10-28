@@ -1,0 +1,23 @@
+
+body {
+  background-color: #F2E530;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+#ninja{
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+
+  img {
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+
+  
+}

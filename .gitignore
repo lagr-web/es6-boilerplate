@@ -1,0 +1,7 @@
+node_modules
+dist/bundle.js
+.zip
+uncompressed/.DS_Store
+.vscode/
+.DS_Store
+/work/*
