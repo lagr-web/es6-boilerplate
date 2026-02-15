@@ -9,9 +9,13 @@ const path = require('path');
      index: './src/app.js'
    },
    devtool: 'inline-source-map',
-  devServer: {
-    static: './',
-  },
+
+   
+devServer: {
+  static: {
+    directory: path.join(__dirname),
+  }
+},
   
 
    plugins: [
